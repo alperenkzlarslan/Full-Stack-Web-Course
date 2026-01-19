@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      #showcase {
+        background-color: yellow;
+        width: 50%;
+        height: 250px;
+        padding: 5px;
+        border: 5px solid black;
+        visibility: hidden;
+      }
+      #how-it-works {
+        background-color: lightblue;
+        height: 250px;
+        width: 50%;
+        padding: 5px;
+        border: 5px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- display : none | inline | inline-block | block -->
+    <!--visibility: hidden = Nesneyi gizler yer kaplamaya devam eder-->
+
+    <div style="width: 100%; display: flex">
+      <section id="showcase">
+        <h1>Welcome To MovieApp</h1>
+      </section>
+
+      <section id="how-it-works">
+        <h2>How it works?</h2>
+        <p id="text">Lorem ipsum dolor sit amet.</p>
+      </section>
+    </div>
+  </body>
+</html>

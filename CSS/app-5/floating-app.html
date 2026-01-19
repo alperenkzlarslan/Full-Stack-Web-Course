@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floating App!</title>
+    <style>
+      h1 {
+        background-color: #e2a16f;
+        height: 150px;
+        color: #fff0dd;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 30px;
+        margin: -17px;
+      }
+      .menu {
+        width: 30%;
+        height: 250px;
+      }
+      .content {
+        width: 70%;
+        height: 250px;
+        float: right;
+      }
+      .col {
+        float: left;
+        padding: 15px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .menu ul {
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+      }
+      .menu li {
+        padding: 10px;
+        background-color: #134686;
+        margin-bottom: 10px;
+        color: #ffffff;
+      }
+      .menu li:hover {
+        background-color: #1e93ab;
+        color: #000000;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <main>
+      <div class="menu col">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div class="content col">
+        <h2>Komple Web Geliştirme Eğitimi</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          saepe nobis ab repudiandae perferendis, eos ut molestiae, ratione
+          fugiat iste inventore omnis ipsum doloremque esse.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          saepe nobis ab repudiandae perferendis, eos ut molestiae, ratione
+          fugiat iste inventore omnis ipsum doloremque esse.
+        </p>
+      </div>
+      <p></p>
+    </main>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>

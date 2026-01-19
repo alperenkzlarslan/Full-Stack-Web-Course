@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floating İmage</title>
+    <style>
+      img {
+        width: 400px;
+        float: left;
+        margin-right: 10px;
+      }
+      p {
+        border: 2px solid green;
+        padding: 5px;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti libero
+      aliquid itaque natus fuga minus vero beatae enim magnam ipsam.
+    </p>
+
+    <p class="clearfix">
+      <img src="floating-image.jpg" alt="" />
+      <span
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        cumque a magnam fuga repudiandae nam illo magni eveniet illum eaque.
+        Repellendus atque exercitationem at, magnam eveniet ipsa similique quae
+        iure?</span
+      ><span
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        cumque a magnam fuga repudiandae nam illo magni eveniet illum eaque.
+        Repellendus atque exercitationem at, magnam eveniet ipsa similique quae
+        iure?</span
+      ><span
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        cumque a magnam fuga repudiandae nam illo magni eveniet illum eaque.
+        Repellendus atque exercitationem at, magnam eveniet ipsa similique quae
+        iure?</span
+      >
+    </p>
+  </body>
+</html>
