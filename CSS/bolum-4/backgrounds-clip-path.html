@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #header{
+            height: 100vh;
+            position: relative;
+
+            background-image:
+            url("bg_resim.jpg");
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        h1 {
+            color: #fff;
+            /* border: #fff, solid, 5px;  */
+            position: absolute;
+            background-color: rgb(246, 86, 0);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .logo{
+            position: absolute;
+            width: 100px;
+            top: 30px;
+            left: 30px;
+            opacity: 0.8;
+            clip-path: circle(50% at 50% 50%);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Alperen KIZILARSLAN</h1>
+        <img src="logo.jpg" alt="" class="logo">
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attachment Background</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .bg {
+            width: 100vw;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+        
+        }
+
+        .bg-image-1 {
+            background-image: url("soloturk.jpg");
+            height: 100vh;
+        }
+
+        .bg-image-2 {
+            background-image: url("fly.jpg");
+            height: 50vh;
+        }
+
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            font-size: 40px;
+        }
+
+        .border {
+            background-color: #111;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            
+        }
+
+        .box {
+            text-align: center;
+            color: #777;
+            background-color: #fff;
+            padding: 20px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg bg-image-1">
+        <div class="caption">
+            <span class="border">Solotürk</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <h3>Solotürk</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis cum, non obcaecati aut deserunt aperiam culpa, eveniet omnis similique at illo quos quasi earum eius asperiores quam modi repellendus! Culpa!
+        Est nam rerum odit temporibus eos doloribus quas, nemo vel accusantium maiores, quos non itaque amet dolore earum veniam. Fuga commodi mollitia velit in animi explicabo amet. Blanditiis, ad aliquam.
+        Sapiente iure blanditiis ab, quos sequi necessitatibus possimus porro et laudantium quibusdam! Libero cumque nesciunt, officiis aliquid nostrum quo iste quidem, ullam eum itaque corporis adipisci sint pariatur voluptas odio?</p>
+    </div>
+
+    <div class="bg bg-image-2">
+        <div class="caption">
+            <span class="border">Others</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <h3>Other Air Force</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis cum, non obcaecati aut deserunt aperiam culpa, eveniet omnis similique at illo quos quasi earum eius asperiores quam modi repellendus! Culpa!
+        Est nam rerum odit temporibus eos doloribus quas, nemo vel accusantium maiores, quos non itaque amet dolore earum veniam. Fuga commodi mollitia velit in animi explicabo amet. Blanditiis, ad aliquam.
+        Sapiente iure blanditiis ab, quos sequi necessitatibus possimus porro et laudantium quibusdam! Libero cumque nesciunt, officiis aliquid nostrum quo iste quidem, ullam eum itaque corporis adipisci sint pariatur voluptas odio?</p>
+    </div>
+</body>
+</html>
