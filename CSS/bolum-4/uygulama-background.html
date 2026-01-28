@@ -35,14 +35,14 @@
         background: url("movie.jpg");
         background-position: center;
         background-size: cover;
-        height: 500px;
+        height: 80vh;
         width: 100%;
         padding: 10px;
         position: relative;
         background-attachment: fixed;
       }
 
-      #showcase h1{
+      #welcome-head{
       position: absolute;
       color: #fff;
       margin: 0;
@@ -258,7 +258,9 @@
 
     <main>
       <section id="showcase">
-        <h1>Welcome to Movie App</h1>
+        <h1 id="welcome-head">Welcome to Movie App
+          <p style="font-size: 15px; text-transform: lowercase; letter-spacing: 1px;">Millions of movies, TV shows and people to discover. Explore now!</p>
+        </h1>
       </section>
       <section id="how-it-works">
         <h2>How it works?</h2>
@@ -367,7 +369,7 @@
     </main>
 
     <a href="#" id="back-to-top">
-        <i class="fas fa-arrow-circle-up"></i>
+      <i class="fas fa-arrow-circle-up"></i>
     </a>
 
   </body>
