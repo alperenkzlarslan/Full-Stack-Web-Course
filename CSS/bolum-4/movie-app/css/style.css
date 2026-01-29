@@ -60,7 +60,8 @@ body {
   display: inline-block;
   width: calc(100% - 15%);
   text-align: right;
-  position: absolute;
+  position: relative;
+  margin: 0px;
 }
 
 .main-nav__items {
@@ -222,7 +223,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 1000px;
   margin: 0px auto;
 }
 
@@ -251,4 +252,24 @@ body {
 
 ul {
   padding-left: 0;
+}
+
+#counters {
+  background: linear-gradient(to bottom, #fc997c 0%, #fc8b69 100%);
+  text-align: center;
+  padding: 50px;
+  width: auto;
+  background-size: cover;
+  height: 150px;
+}
+
+#counters h4 {
+  margin: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.counter__item {
+  color: #fff;
+  font-size: 30px;
 }

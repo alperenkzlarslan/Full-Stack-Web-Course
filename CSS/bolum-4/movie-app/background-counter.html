@@ -17,20 +17,22 @@
   </head>
   <body>
     <header class="main-header">
-      <a href="#" class="main-header__logo">MovieApp</a>
-      <nav class="main-nav">
-        <ul class="main-nav__items">
-          <li class="main-nav__item">
-            <a class="btn btn-primary-outline" href="#">Movies</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="btn btn-primary-outline" href="#">Series</a>
-          </li>
-          <li class="main-nav__item main-nav__item--login">
-            <a class="btn btn-secondary-outline" href="#">Login</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <a href="#" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a class="btn btn-primary-outline" href="#">Movies</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="btn btn-primary-outline" href="#">Series</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-secondary-outline" href="#">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
@@ -40,38 +42,40 @@
         </h1>
       </section>
       <section id="how-it-works">
-        <h2>How it works?</h2>
-        <p>
-          We will show you step by step how to start watching your favorite
-          movies & tv shows starting now!
-        </p>
+        <div class="container">
+          <h2>How it works?</h2>
+          <p>
+            We will show you step by step how to start watching your favorite
+            movies & tv shows starting now!
+          </p>
+          <div id="bottom-headings">
+            <div class="icon-box">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <h2 class="bottom-heads">Register</h2>
+              <p class="bottom-heads-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                corporis cupiditate, quas praesentium eos recusandae.
+              </p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-solid fa-atom"></i>
+              <h2 class="bottom-heads">Choose a Plan</h2>
+              <p class="bottom-heads-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                corporis cupiditate, quas praesentium eos recusandae.
+              </p>
+            </div>
+            <div class="icon-box">
+              <i class="fa-solid fa-face-smile-beam"></i>
+              <h2 class="bottom-heads">Enjoy Movify</h2>
+              <p class="bottom-heads-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                corporis cupiditate, quas praesentium eos recusandae.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
-      <div id="bottom-headings">
-        <div class="icon-box">
-          <i class="fa-solid fa-right-to-bracket"></i>
-          <h2 class="bottom-heads">Register</h2>
-          <p class="bottom-heads-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            corporis cupiditate, quas praesentium eos recusandae.
-          </p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-solid fa-atom"></i>
-          <h2 class="bottom-heads">Choose a Plan</h2>
-          <p class="bottom-heads-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            corporis cupiditate, quas praesentium eos recusandae.
-          </p>
-        </div>
-        <div class="icon-box">
-          <i class="fa-solid fa-face-smile-beam"></i>
-          <h2 class="bottom-heads">Enjoy Movify</h2>
-          <p class="bottom-heads-para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            corporis cupiditate, quas praesentium eos recusandae.
-          </p>
-        </div>
-      </div>
       <section id="features">
         <div class="row">
           <div class="col-2 features__left"></div>
@@ -143,6 +147,20 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section id="counters">
+        <div class="col-3">
+          <span class="counter__item">986</span>
+          <h4>Movies</h4>
+        </div>
+        <div class="col-3">
+          <span class="counter__item">776</span>
+          <h4>Series</h4>
+        </div>
+        <div class="col-3">
+          <span class="counter__item">2950</span>
+          <h4>Users </h4>
         </div>
       </section>
     </main>
